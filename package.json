@@ -1,0 +1,13 @@
+{
+  "name": "discord-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "postinstall": "npx playwright install --with-deps"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "playwright": "^1.42.0"
+  }
+}
